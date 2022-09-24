@@ -1,0 +1,16 @@
+C:\Users\WM Argentina\source\repos\App\bin\Debug\App.exe.config
+C:\Users\WM Argentina\source\repos\App\bin\Debug\App.exe
+C:\Users\WM Argentina\source\repos\App\bin\Debug\App.pdb
+C:\Users\WM Argentina\source\repos\App\bin\Debug\App.xml
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.vbproj.AssemblyReference.cache
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.vbproj.SuggestedBindingRedirects.cache
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.Form1.resources
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.Resources.resources
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.vbproj.GenerateResource.cache
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.vbproj.CoreCompileInputs.cache
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.exe
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.xml
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.pdb
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.AgregarPaciente.resources
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.Lista.resources
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.Editar.resources
