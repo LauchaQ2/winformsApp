@@ -56,7 +56,6 @@ Partial Class Editar
         '
         'txtDniEdit
         '
-        Me.txtDniEdit.Enabled = False
         Me.txtDniEdit.Location = New System.Drawing.Point(264, 196)
         Me.txtDniEdit.Name = "txtDniEdit"
         Me.txtDniEdit.Size = New System.Drawing.Size(274, 20)

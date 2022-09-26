@@ -2,35 +2,24 @@
 
 Public Class AgregarPaciente
 
-    Private Sub EnviarDatos_Click(sender As Object, e As EventArgs) Handles EnviarDatos.Click
-        Dim cmd As New SqlCommand
+    Dim conex As New dbManager
 
-        Dim stNombre As String
-        Dim stApellido As String
-        Dim stEdad As String
-        Dim stDni As String
+    Public Sub EnviarDatos_Click(sender As Object, e As EventArgs) Handles EnviarDatos.Click
+        Dim user As New User
 
-        stNombre = txtNombre.Text
-        stApellido = txtApellido.Text
-        stEdad = txtEdad.Text
-        stDni = txtDni.Text
+        user.Nombre = txtNombre.Text
+        user.Apellido = txtApellido.Text
+        user.Edad = txtEdad.Text
+        user.Dni = txtDni.Text
 
         If txtNombre.Text <> "" Or txtApellido.Text <> "" Then
             Try
-                Abrir_Conexion()
-                cmd = New SqlCommand("Add_Paciente", conexion)
-                cmd.CommandType = 4
-                cmd.Parameters.AddWithValue("@IdPaciente", stDni.ToString)
-                cmd.Parameters.AddWithValue("@Nombre", stNombre.ToString)
-                cmd.Parameters.AddWithValue("@Apellido", stApellido.ToString)
-                cmd.Parameters.AddWithValue("@Edad", stEdad)
-                cmd.ExecuteNonQuery()
+                conex.Insert(user)
                 MsgBox("Enviado")
                 txtNombre.Text = ""
                 txtApellido.Text = ""
                 txtEdad.Text = ""
                 txtDni.Text = ""
-                Cerrar_Conexion()
             Catch ex As Exception
 
             End Try

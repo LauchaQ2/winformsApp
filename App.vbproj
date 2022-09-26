@@ -80,6 +80,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="conexion\ConexionMaestra.vb" />
+    <Compile Include="dbManager.vb" />
     <Compile Include="Editar.Designer.vb">
       <DependentUpon>Editar.vb</DependentUpon>
     </Compile>
@@ -99,6 +100,12 @@
     <Compile Include="Lista.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ListaAtendidos.Designer.vb">
+      <DependentUpon>ListaAtendidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListaAtendidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -114,6 +121,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NuevoPaciente.Designer.vb">
+      <DependentUpon>NuevoPaciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoPaciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paciente.vb" />
+    <Compile Include="User.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Agregar.resx">
@@ -128,11 +143,17 @@
     <EmbeddedResource Include="Lista.resx">
       <DependentUpon>Lista.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListaAtendidos.resx">
+      <DependentUpon>ListaAtendidos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoPaciente.resx">
+      <DependentUpon>NuevoPaciente.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

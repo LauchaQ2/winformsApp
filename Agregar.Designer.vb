@@ -146,15 +146,14 @@ Partial Class AgregarPaciente
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents txtNombre As TextBox
-    Friend WithEvents txtEdad As TextBox
-    Friend WithEvents txtApellido As TextBox
-    Friend WithEvents txtDni As TextBox
     Friend WithEvents EnviarDatos As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents lblTitle As Label
+    Public WithEvents txtNombre As TextBox
+    Public WithEvents txtEdad As TextBox
+    Public WithEvents txtApellido As TextBox
+    Public WithEvents txtDni As TextBox
 End Class

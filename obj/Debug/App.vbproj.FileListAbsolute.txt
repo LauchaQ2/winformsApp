@@ -14,3 +14,5 @@ C:\Users\WM Argentina\source\repos\App\obj\Debug\App.pdb
 C:\Users\WM Argentina\source\repos\App\obj\Debug\App.AgregarPaciente.resources
 C:\Users\WM Argentina\source\repos\App\obj\Debug\App.Lista.resources
 C:\Users\WM Argentina\source\repos\App\obj\Debug\App.Editar.resources
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.NuevoPaciente.resources
+C:\Users\WM Argentina\source\repos\App\obj\Debug\App.ListaAtendidos.resources
